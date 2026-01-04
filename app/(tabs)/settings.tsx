@@ -1,28 +1,30 @@
-import { View, Text, StyleSheet } from 'react-native'
 import React from 'react'
+import { StyleSheet, Text, View } from 'react-native'
 
-const about = () => {
+const Settings = () => {
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>about</Text>
+      <Text style={styles.text}>Settings</Text>
     </View>
   )
 }
 
-export default about
+
 
 const styles=StyleSheet.create({
   container:{
     flex:1,
     alignItems:"center",
     justifyContent:"center",
-    backgroundColor:"gray"
+    backgroundColor:"black"
   },
   text:{
     fontSize:24,
     fontWeight:"bold",
-    fontStyle:"italic",
+    fontStyle:"normal",
     color:"white"    
 
-  }
-})
+}})
+
+
+export default Settings
