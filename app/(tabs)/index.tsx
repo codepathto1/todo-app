@@ -1,14 +1,11 @@
-import { Link } from "expo-router";
+import { Link, Tabs } from "expo-router";
 import { StyleSheet, Text, View } from "react-native";
 
 export default function Index() {
   return (
-    <View
-      style={styles.container}
-    >
+   <View style={styles.container}>
       <Text style={styles.text}>Home</Text>
-      <Link href={"/about"} style={styles.button}>About</Link>
-    </View>
+   </View>
   );
 }
 
