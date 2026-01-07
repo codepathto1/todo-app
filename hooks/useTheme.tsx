@@ -35,7 +35,7 @@ const lightColors: ColorScheme = {
   text: "#1e293b",
   textMuted: "#64748b",
   border: "#e2e8f0",
-  primary: "#3b82f6",
+  primary: "#062a63",
   success: "#10b981",
   warning: "#f59e0b",
   danger: "#ef4444",
@@ -117,12 +117,11 @@ export const ThemeProvider = ({ children }: { children: React.ReactNode }) => {
   );
 };
 const useTheme = () => {
-  const context=useContext(ThemeContext)
-  if(!context){
-    throw new Error("useTheme must be used within a ThemeProvider")
+  const context = useContext(ThemeContext);
+  if (!context) {
+    throw new Error("useTheme must be used within a ThemeProvider");
   }
-    return context
-  
+  return context;
 };
 
 export default useTheme;
