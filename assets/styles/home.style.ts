@@ -164,6 +164,16 @@ export const createHomeStyles = (colors: ColorScheme) => {
       marginBottom: 16,
       color: colors.text,
     },
+    todoTextCompleted: {
+      fontSize: 17,
+      lineHeight: 24,
+      fontWeight: "500",
+      marginBottom: 16,
+      color: colors.textMuted,
+      fontStyle: "italic",
+      textDecorationLine: "line-through",
+      opacity:0.6
+    },
     todoActions: {
       flexDirection: "row",
       gap: 12,
