@@ -172,7 +172,7 @@ export const createHomeStyles = (colors: ColorScheme) => {
       color: colors.textMuted,
       fontStyle: "italic",
       textDecorationLine: "line-through",
-      opacity:0.6
+      opacity: 0.6,
     },
     todoActions: {
       flexDirection: "row",
@@ -187,6 +187,7 @@ export const createHomeStyles = (colors: ColorScheme) => {
     },
     editContainer: {
       flex: 1,
+      flexDirection: "column",
     },
     editInput: {
       borderWidth: 2,
